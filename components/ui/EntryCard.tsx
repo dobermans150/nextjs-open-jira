@@ -15,7 +15,7 @@ export const EntryCard: FC<Props> = ({ entry }) => {
 
             <CardActionArea>
                 <CardContent>
-                    <Typography sx={ { whitespace: 'pre-line' } }>{ entry.description }</Typography>
+                    <Typography sx={ { whiteSpace: 'pre-line' } }>{ entry.description }</Typography>
                 </CardContent>
 
 
